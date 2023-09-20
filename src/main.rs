@@ -4,7 +4,8 @@ mod plugins {
     pub mod world;
 }
 
-use bevy::prelude::*;
+use bevy::prelude::App;
+use bevy::prelude::DefaultPlugins;
 use plugins::camera::CameraPlugin;
 use plugins::player::PlayerPlugin;
 use plugins::world::WorldPlugin;
