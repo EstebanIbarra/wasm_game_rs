@@ -16,7 +16,7 @@ fn main() {
             DefaultPlugins,
             CameraPlugin,
             PlayerPlugin,
-            WorldPlugin
+            WorldPlugin,
         ))
         .run();
 }
